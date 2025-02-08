@@ -10,5 +10,4 @@ import { EmptyComponent } from "./empty/empty.component";
 })
 export class AppComponent {
   title = 'task1';
-
 }

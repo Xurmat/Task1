@@ -12,29 +12,21 @@
     transition: box-shadow .5s;
     background-color: #0f1014;
 
-
-
     .cart-title{
-        // color: white;
         text-align: center;
         display: inline-block;
         margin: 50px 50px 10px 50px;
     }
+
     p{
         width: 100%;
-        // color: white;
         display: flex;
         justify-content: flex-end;
         align-items: center;
         padding: 10px;
     }
-
-
      
 }
 .cart-box:hover{
     box-shadow: 0 8px 8px #6a7c883d, 0 0 8px #98b1c11f;
 }
-
-
-
