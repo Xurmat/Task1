@@ -9,7 +9,6 @@ import { CartsService } from '../carts.service';
 })
 export class LoadingpageComponent {
   @Input('title') cartTitle!: string;
-  @Input('description') cartDesc!: string;
   @Input('footer') cartfooter!:string;
 
   constructor(private cartService:CartsService){
