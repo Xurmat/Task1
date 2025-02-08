@@ -1,0 +1,5 @@
+<div class="cart-container">
+    <ng-container *ngFor="let cart of carts; let i = index">
+        <app-loadingpage [title]="cart.title" [description] = "cart.description" [footer]="cart.footer" ></app-loadingpage>
+    </ng-container>
+</div>
