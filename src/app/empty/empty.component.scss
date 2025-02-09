@@ -8,9 +8,8 @@
     margin: 5px;
     margin-top: 15px;
     border-radius: 7px;
-    box-shadow: 0 2px 2px #7086953d,0 0 2px #81a8c21f;
     transition: box-shadow .5s;
-    background-color: #0f1014;
+    border: 1px solid white;
 
     .cart-title{
         text-align: center;
@@ -26,7 +25,4 @@
         padding: 10px;
     }
      
-}
-.cart-box:hover{
-    box-shadow: 0 8px 8px #6a7c883d, 0 0 8px #98b1c11f;
 }
